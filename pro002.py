@@ -1,3 +1,7 @@
+#with open("filename.txt", "w") as log_file:
+#    log_file.write("This will be written to a file.")
+
+
 def critical(msg):
     with open("filename.txt", "a") as log_file:
         log_file.write("[CRITICAL] {0}\n".format(msg))
