@@ -1,4 +1,4 @@
-from pro008 import SingletonObject
+from pro008__SingletonObj1 import SingletonObject
 
 obj1=SingletonObject()
 obj1.val="obj value 1"

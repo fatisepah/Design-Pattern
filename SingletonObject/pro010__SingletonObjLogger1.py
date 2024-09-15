@@ -12,19 +12,19 @@ class SingletonObject(object):
                 log_file.write("[{0}] {1}\n".format(level,msg))
 
         def critical(self,msg):
-            self.write_log("CRITICAL",msg)
+            self._write_log("CRITICAL",msg)
 
         def error(self,msg):
-            self.write_log("ERROR",msg)
+            self._write_log("ERROR",msg)
 
         def warning(self,msg):
-            self.write_log("WARNING",msg)
+            self._write_log("WARNING",msg)
 
         def info(self,msg):
-            self.write_log("INFO",msg)
+            self._write_log("INFO",msg)
 
         def debug(self,msg):
-            self.write_log("DEBUG",msg)
+            self._write_log("DEBUG",msg)
         
     instance=None
 

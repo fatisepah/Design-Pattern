@@ -1,4 +1,4 @@
-from pro010 import SingletonObject
+from pro010__SingletonObjLogger1 import SingletonObject
 
 obj1=SingletonObject()
 obj1.filename="log1.txt"
